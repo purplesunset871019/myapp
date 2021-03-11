@@ -1,5 +1,4 @@
 body {
-  /*padding: 50px;*/
   margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -8,33 +7,25 @@ a {
   color: #272727;
 }
 
-/*#web_body{
-  padding-top: 0px;
-  padding: 0px;
-  width: 970px;
-  margin: 0 auto;
-  margin-top: 7px;
-  /*margin-left: 25%;
-  margin-right: 340px;
-} */
-
 .logo {
   float: left;
-  
+  margin-top: 10px;
 }
 
-.phone {
-  /*margin-right: 20px;*/ 
+#logo_right {
   vertical-align:text-top; 
-  /*vertical-align: middle;*/
+  float: left;
+  padding-left: 450px;
+  margin-top: 5px;
 }
 
 #logo_phone {
   color: red;
+  font-size: 13px;
 }
 
 #web_logo {
-  width: 970px;
+  width: 955px;
   height: 55px;
   text-align: right;
   vertical-align:middle;
@@ -43,8 +34,7 @@ a {
   margin-top: 7px;
   padding-right: 10px;
   padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#E8E8E8+0,ffffff+70 */
   background: #E8E8E8; /* Old browsers */
   background: -moz-linear-gradient(top,  #E8E8E8 0%, #ffffff 30%); /* FF3.6-15 */
@@ -58,7 +48,7 @@ a {
   box-shadow:1px 3px 6px gray;
 }
 
-#top_menu{
+#logo_menu{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f50000+0,b20000+100 */
   background: #f50000; /* Old browsers */
   background: -moz-linear-gradient(top, #f50000 0%, #8F0000	 100%); /* FF3.6-15 */
@@ -70,9 +60,10 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50000', endColorstr='#8F0000',GradientType=0 ); /* IE6-9 */
 }
 
-.topmenu_table{
+#menu_table{
   width: 990px;
   margin: 0 auto;
+  padding-top: 4px;
 }
 
 #Copyright {
@@ -83,7 +74,7 @@ a {
 }
 
 .copy {
-  width: 990px;
+  width: 950px;
   text-align: center;
   line-height: 22px;
   margin: 0 auto;
