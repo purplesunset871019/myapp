@@ -10,30 +10,37 @@ a {
 .logo {
   float: left;
   margin-top: 10px;
+  padding-left: 20px;
 }
 
 #logo_right {
   vertical-align:text-top; 
   float: left;
-  padding-left: 450px;
+  height: 60px;
+  margin-left: 450px;
   margin-top: 5px;
 }
 
-#logo_phone {
+#logo_phone_span{
+  color: #6E6E6E;
+  font-family: 'Noto Sans TC', sans-serif; 
+  font-weight:900;
+}
+
+#logo_phone_number {
   color: red;
   font-size: 13px;
+  font-weight:700;
 }
 
 #web_logo {
-  width: 955px;
+  width: 985px;
   height: 55px;
   text-align: right;
   vertical-align:middle;
   font-size:14px;
   margin: 0 auto;
   margin-top: 7px;
-  padding-right: 10px;
-  padding-left: 20px;
   padding-bottom: 20px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#E8E8E8+0,ffffff+70 */
   background: #E8E8E8; /* Old browsers */
@@ -44,7 +51,6 @@ a {
   background: -ms-linear-gradient(top,  #E8E8E8 0%,#ffffff 53%); /* IE10 preview */
   background: linear-gradient(to bottom,  #E8E8E8 0%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E8E8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
   box-shadow:1px 3px 6px gray;
 }
 
@@ -70,12 +76,41 @@ a {
   float: left;
   background-color: #f0f0f1;
   width: 100%;
-
 }
 
 .copy {
   width: 950px;
   text-align: center;
   line-height: 22px;
+  margin: 0 auto;
+}
+
+.menu_table_chinese{
+  font-size: 16px;
+  color: white;
+}
+
+.menu_table_english{
+  font-size: 12px;
+  color: #D9D9D9;
+  opacity: 0.5;
+  -webkit-transform-origin-x: 0;
+  -webkit-transform: scale(0.90);
+}
+
+.logo_right_span{
+  line-height: 30px;
+  font-size:12px; 
+  color:#878787;
+  margin-right: 5px;
+}
+
+#body_middle{
+  background: linear-gradient(to bottom, #E8E8E8 167px, #ffffff 167px);
+}
+
+#templet_middle{
+  width: 985px;
+  /*background-color: green;*/
   margin: 0 auto;
 }
