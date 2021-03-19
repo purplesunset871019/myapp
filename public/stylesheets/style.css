@@ -1,10 +1,18 @@
 body {
   margin: 0px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+html{
+  margin: 0px;
 }
 
 a {
   color: #272727;
+}
+
+table{
+  border-spacing: 0px;
 }
 
 .logo {
@@ -48,7 +56,7 @@ a {
 
 #logo_phone_number {
   color: red;
-  font-size: 13px;
+  font-size: 14px;
   font-weight:700;
 }
 
@@ -92,8 +100,10 @@ a {
 
 .menu_table_button{
   width: 87px;
+  height: 33px;
   margin: 0 auto;
-  padding-top: 4px;
+  padding-top: 8px;
+  line-height: 13px;
 }
 
 .menu_table_button:hover{
@@ -107,12 +117,11 @@ a {
 }
 
 .menu_table_english{
-  font-size: 12px;
+  font-size: 10px;
   color: #D9D9D9;
   opacity: 0.5;
-  cursor: pointer; 
-  -webkit-transform-origin-x: 0;
-  -webkit-transform: scale(0.90);
+  text-align: right;
+  margin-left: 7px;
 }
 
 #body_middle{
@@ -288,37 +297,69 @@ a {
 
 #bg_main_left{
   width: 280px;
+  height: 168px;
   float: left;
   margin-left: 40px;
+  background-color: green;
 }
 
-#bg_amin_middle{
+#bg_main_left_tittleimage{
+  width: 285px;
+  height: 20px;
+}
+
+.bg_main_left_image{
+  width: 280px;
+  height: 148px;
+}
+
+#bg_main_middle{
   width: 273px;
   float: left;
   margin-left: 40px;
 }
 
-#bg_amin_right{
+#bg_main_right{
   width: 281px;
   float: left;
   margin-left: 40px;
 }
 
 .td_01{
-
+  height: 27px;
+  border-bottom: 1px solid #dedede;
 }
 
 .td_02{
-
+  height: 27px;
+  width: 218px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
-.bg_amin_right_text{
+.td_03{
+  height: 27px;
+  width: 90px;
+  border-bottom: 1px solid #dedede;
+}
+
+.bg_main_right_image{
+  height: 27px;
+}
+
+.bg_main_right_text{
   text-decoration:none;
   color: #777777;
+  font-size: 16px;
 }
 
-.bg_amin_right_text:hover{
+.bg_main_right_text:hover{
   text-decoration:underline;
+}
+
+.bg_main_right_date{
+  color: #c9c8c8;
+  font-size: 12px;
+  text-align: right;
 }
 
 .YT{
