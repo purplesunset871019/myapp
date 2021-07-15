@@ -10,7 +10,7 @@
 
 <body>
     <div class="web_logo">
-        <div class="logo pointer">
+        <div class="logo pointer" onclick="window.location.href='/';">
             <img src="images/logo.png" width="280" height="50">
         </div>
         <div class="logo_right">
@@ -85,22 +85,24 @@
             </tbody>
         </table>
     </div>
-    <div class="bg_main bg_gray">
+    <div class="bg_gray">
         <div class="top_image">
-            <img src="images/top_pic.jpg" width="987" height="174">
+            <img src="images/top_pic.jpg">
         </div>
         <div class="main_content">
             <div class="main_left">
                 <div class="menu_image">
-                    <img src="images/mu_company.jpg" width="232" height="50">
+                    <img src="images/mu_company.jpg">
                 </div>
                 <div class="main_menu">
-                    <ul class="menu_list">
-                        <li><a href="" class="menu on_this">公司簡介</a></li>
-                    </ul>
-                    <ul class="menu_list">
-                        <li><a href="" class="menu">為何選擇快肯</a></li>
-                    </ul>
+                    <div class="menu_list on_this">
+                        <img src="images/mu_02.gif">
+                        <a href="">公司簡介</a>
+                    </div>
+                    <div class="menu_list">
+                        <img src="images/mu_01.gif">
+                        <a href="">為何選擇快肯</a>
+                    </div>
                 </div>
                 <div class="menu_view">
                     <img src="images/mutitle_ad.jpg">
@@ -108,11 +110,11 @@
             </div>
             <div class="main_right">
                 <div class="main_tittle">
-                    <div class="tittle_img">
+                    <!--<div class="tittle_img">
                         <img src="images/breadcrumbs_bg01.gif">
-                    </div>
+                    </div>-->
                     <div class="tittle">
-
+                        <a>公司簡介</a>
                     </div>
                     <div class="tittle_address">
 

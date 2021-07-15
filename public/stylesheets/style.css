@@ -129,6 +129,10 @@ body {
 .body_middle{
   width: 985px;
   margin: 0 auto;
+  border: 1px solid transparent;
+  border-width: 0 5px 0 5px;
+  border-image: linear-gradient(to top, #D54565 0%, #6A0B23 100%);
+  border-image-slice: 1;
   box-shadow:1px 0px 6px 0px gray;
 }
 
@@ -403,7 +407,9 @@ body {
   width: 985px;
   margin-top: 90px;
   height: 500px;
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .main_left{
@@ -417,42 +423,61 @@ body {
 
 .main_menu{
   width: 195px;
-  margin: 5px 20px 10px 25px;
+  margin: 5px 20px 10px 20px;
 }
 
 .menu_list{
   border-bottom-style: dashed;
   border-width: 1px;
   border-color: #939699;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  line-height: 16px;
-  list-style: none;
-  width: 195px;
-  height: 30px;
-  position:relative;
+  width: 175px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 20px;
+  line-height: 30px;
 }
 
-.menu{
+.menu_list > img{
+  margin: 5px 10px 0 0;
+}
+
+.menu_list > a{
   color: gray;
-  padding-left: 35px;
-  padding-top: 8px;
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
-  width: 160px;
-  position:absolute;
   bottom:0px;
+  margin-top: 5px;
 }
 
 .on_this{
-  color: white;
   background: #A80000;
 }
 
+.on_this > a{
+  color: white;
+}
+
+.menu_view{
+  margin-top: 15px;
+}
+
+/*web_right*/
+
 .main_right{
   float: left;
-  width: 719px;
+  width: 628px;
+  height: 30px;
   padding: 0px 20px 0px 10px;
+}
+
+.tittle > a{
+  border: 1px solid transparent;
+  border-width: 0 0 0 6px;
+  border-image: linear-gradient(to top, #D54565 0%, #6A0B23 100%);
+  border-image-slice: 1;
 }
 
 /*Copyright*/
