@@ -31,6 +31,7 @@ body {
   background: linear-gradient(to bottom,  #E8E8E8 0%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E8E8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   box-shadow:1px 3px 6px gray;
+  z-index: 3;
 }
 
 .logo {
@@ -88,6 +89,7 @@ body {
   background: -ms-linear-gradient(top, #E60000 0%,#8F0000 100%); /* IE10 preview */
   background: linear-gradient(to bottom, #E60000 0%,#8F0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#8F0000',GradientType=0 ); /* IE6-9 */
+  z-index: 3;
 }
 
 .menu_table{
@@ -131,9 +133,9 @@ body {
   margin: 0 auto;
   border: 1px solid transparent;
   border-width: 0 5px 0 5px;
-  border-image: linear-gradient(to top, #D54565 0%, #6A0B23 100%);
+  border-image: linear-gradient(to right, #e3e3e3 0%, #ffffff 100%), linear-gradient(to top, white 0%, transparent 30%, transparent);
   border-image-slice: 1;
-  box-shadow:1px 0px 6px 0px gray;
+  box-shadow: 0 -50px 6px 0 gray;
 }
 
 .slider_container {
